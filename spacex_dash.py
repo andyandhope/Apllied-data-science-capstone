@@ -1,8 +1,8 @@
 
-# import wget
-# dir_web = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"
-# dir_output = "/Users/macjianfeng/Dropbox/github/python/Course/Apllied-data-science-capstone/spacex_launch_dash.csv"
-# wget.download(dir_web, dir_output)
+import wget
+dir_web = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"
+dir_output = "/Users/macjianfeng/Dropbox/github/python/Course/Apllied-data-science-capstone/spacex_launch_dash.csv"
+wget.download(dir_web, dir_output)
 
 # Import required libraries
 import pandas as pd
